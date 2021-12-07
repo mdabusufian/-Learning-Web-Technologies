@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<h1>JQuery</h1>
+
+	<p>Formula of JQuery: <b>$(selector).action()</b></p>
+
+	<p id="i1">This text will change.</p>
+
+	<button id="btn1">Click Me</button>
+
+	<p id="i2"></p>
+
+	<p id="i3"></p>
+
+	<button id="btn2">Get Data</button>
+
+	<script>
+
+		$(document).ready(function(){
+			$("#i1").mouseenter(function(){
+				$(this).text("This text is changed.")
+			})
+
+			$("#i1").mouseleave(function(){
+				$(this).text("This text will change.")
+			})
+
+			$("#btn1").click(function() {
+				$("#i1").slideUp(500, function() {
+					$("#i2").text("slideUp...");
+				}).slideDown(1000, function() {
+					$("#i2").text("slideDown...");
+				});
+			})
+
+			$("#btn2").click(function() {
+				$("#i3").load("jquery.php");
+			})
+		})
+		
+	</script>
+
+</body>
+</html>
