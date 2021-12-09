@@ -47,7 +47,7 @@ CREATE TABLE `registration` (
 --
 
 INSERT INTO `registration` (`id`, `username`, `pass`, `fname`, `lname`, `dob`, `gender`, `address`, `phn`, `prlink`, `email`, `rel`) VALUES
-(1, 'Mohok', '1234', 'Mahadial', 'Mohok', '1999-11-14', 'Male', 'nilphamari', '01767268796', '', 'mahadialmohok3@gmail.com', 'islam'),
+(1, 'Sufian', '1234', 'Tanzid', 'sufian', '1990-11-14', 'Male', 'dhaka', '017111111796', '', 'dfgfhgjk@gmail.com', 'islam'),
 (2, 'Mahadi', '123', 'Mahadial', 'Mohok', '2000-03-12', 'Male', 'babupara , Nilphamari', '01906337576', '', 'mahadialmohok3@gmail.com', 'islam'),
 (3, 'Mahadi', '123', 'Mahadial', 'Mohok', '2021-11-27', 'Male', 'babupara , Nilphamari', '01906337576', '', 'mahadialmohok3@gmail.com', 'hindu');
 
