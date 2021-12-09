@@ -48,8 +48,8 @@ CREATE TABLE `registration` (
 
 INSERT INTO `registration` (`id`, `username`, `pass`, `fname`, `lname`, `dob`, `gender`, `address`, `phn`, `prlink`, `email`, `rel`) VALUES
 (1, 'Sufian', '1234', 'Tanzid', 'sufian', '1990-11-14', 'Male', 'dhaka', '017111111796', '', 'dfgfhgjk@gmail.com', 'islam'),
-(2, '', '123', '', '', '2000-03-12', 'Male', 'babupara , Nilphamari', '01906337576', '', 'mahadialmohok3@gmail.com', 'islam'),
-(3, 'M', '123', '', '', '2021-11-27', 'Male', 'babupara , Nilphamari', '01906337576', '', 'mahadialmohok3@gmail.com', 'hindu');
+(1, 'Abu', '1234', 'sufian', 'sufian', '1993-3-3', 'Male', 'dhaka', '017111111796', '', 'dfgfhgjk@gmail.com', 'islam'),
+(1, 'Sufian', '1234', 'Tanzid', 'tanzid', '1997-7-5', 'Male', 'dhaka', '017111111796', '', 'dfgfhgjk@gmail.com', 'islam');
 
 --
 -- Indexes for dumped tables
